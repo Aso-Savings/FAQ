@@ -26,42 +26,9 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <style>
-  /*FAQS*/
-  .container {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  .container img{
-    margin: 0px auto;
-    display: block;
-    width: 100%;
-    height: 90%;
-    padding: 0px;
-  }
-  .faq {
-      margin: 10px;
-      padding-bottom: 30px;
-      font-family: Arial;
-      font-size: 12px;
-  }
-  .faq_question {
-      margin: 0px;
-      padding: 0px 0px 5px 0px;
-      display: inline-block;
-      font-weight: bold;
-      font-size: 12px;
-  }
-
-  .faq_answer_container {
-      height: 0px;
-      padding: 0px;
-      font-size: 12px;
-      padding-left: 15px;
-  }
-ul.questions {
-  margin: 0px;
-  padding: 0px;
+.displaypdf {
+  width: 95%;
+  height: 1000px;
 }
 
 </style>
@@ -352,97 +319,17 @@ ul.questions {
         </header>
       </div> <!-- end: head -->
       <div class="container">
-        <img src="notes.jpeg" alt="Naira Notes">
-        <div class="faq_container">
-            <div class="faq">
-                <div class="faq_question">
-                  <ul class="questions">
-                    <li>Are all naira notes going to be redesigned?</li> 
-                  </ul>
-                  </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">No, the affected naira notes are N200, N500 and N1000.</div>
-                </div>
-            </div>
-
-            <div class="faq">
-                <div class="faq_question">
-                  <ul>
-                    <li>When can customers start returning the existing (old) naira notes?</li>
-                  </ul>
-                </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">Immediately.</div>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <div class="faq_question">
-                  <ul>
-                    <li>What is the maximum amount of money I can deposit to my account?</li>
-                  </ul>
-                </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">There is no limit to cash deposits into your ASO Bank account; this rule will lapse after January 31, 2023.</div>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <div class="faq_question">
-                  <ul>
-                    <li>Will I be charged on cash deposit?</li>
-                  </ul>
-                </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">You will not be charged, deposit charges have been suspended until January 31, 2023..</div>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <div class="faq_question">
-                  <ul>
-                    <li>When will the new naira notes be in circulation?</li>
-                  </ul>
-                </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">The new notes will be available from December 15, 2022.</div>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <div class="faq_question">
-                  <ul>
-                    <li>Have the current naira notes ceased to be legal tender?</li>
-                  </ul>
-                </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">
-                      The new and existing currencies shall remain legal tender and circulate together until January 31, 2023.  Thereafter, the existing currencies shall cease to be legal tender. <br/>
-                    </div>
-                </div>
-            </div>             
-            <div class="faq">
-                <div class="faq_question">
-                  <ul>
-                    <li>Can I exchange my old Naira notes for the new currency?</li>
-                  </ul>
-                </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">No, you cannot. From December 15, 2022, you can obtain the new Naira notes by withdrawing cash from your ASO Bank account.</div>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <div class="faq_question">
-                  <ul>
-                    <li>Must I deposit the old Naira notes at the ASO Bank Branch where my account is domiciled?</li>
-                  </ul>
-                </div>
-                <div class="faq_answer_container">
-                    <div class="faq_answer">You can deposit the old Naira notes at any ASO Branch close to you.</div>
-                </div>
-            </div>
-        </div>
+        
+      <div class="displaypdf">
+        <iframe
+        src="faq.pdf"
+        frameBorder="0"
+        scrolling="auto"
+        height="100%"
+        width="106%">
+        </iframe>
+      </div>
+      
       </div>
 
       
